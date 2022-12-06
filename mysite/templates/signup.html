@@ -1,0 +1,17 @@
+<!-- hello_world.html -->
+
+
+<html>
+<head>
+<title>This is testing Django template (use for MarinaDB)</title>
+</head>
+<body>
+    <form  action='signup_student_output' method=POST>
+        {% csrf_token %}
+    User :<input type=text name=name><br>
+    Password :<input type=text name=class><br>
+    <input type=submit value=Submit>
+    </form>
+<br><br>
+</body>
+</html>
